@@ -11,7 +11,7 @@ int main() {
 
     for (int i = 0; i < size; i++)
     {
-        cout << "Enter a food you like or 'q' to quit #" << i + 1 << ": ";
+        cout << "Enter a good you like or 'q' to quit #" << i + 1 << ": ";
         getline(cin, temp);
             if (temp == "q")
             {
