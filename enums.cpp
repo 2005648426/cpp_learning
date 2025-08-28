@@ -6,10 +6,7 @@ enum Day{monday = 0, tuesday = 1, wednesday = 2, thursday = 3, friday = 4, satur
 
 int main () {
 
-    Day today;
-
-    cout << "What day is it today?";
-    cin >> today;
+    Day today = thursday;
 
     switch(today){
         case monday: cout << "It is Monday!\n";
